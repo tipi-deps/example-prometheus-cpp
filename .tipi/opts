@@ -1,1 +1,7 @@
 set(BENCHMARK_USE_BUNDLED_GTEST OFF CACHE BOOL "Enable google/benchmark to find_package() GTest")
+
+add_compile_definitions(
+  PROMETHEUS_CPP_CORE_EXPORTS
+  PROMETHEUS_CPP_PULL_EXPORTS
+  PROMETHEUS_CPP_PUSH_EXPORTS
+)
