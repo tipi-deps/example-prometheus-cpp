@@ -7,7 +7,7 @@ This example features using the [jupp0r/prometheus-cpp](https://github.com/jupp0
 Simply run : 
 
 ```
-tipi . -t linux --test all
+tipi . -t linux
 ```
 Alternatively you can use *macos* or *windows* as target platform.
 
