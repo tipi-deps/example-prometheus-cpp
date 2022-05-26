@@ -1,7 +1,8 @@
 {
   "jupp0r/prometheus-cpp" : {
     "requires" : {
-      "google/benchmark":  { "@" : "v1.6.1",
+      "file://compat-export-headers" : {}
+      , "google/benchmark":  { "@" : "v1.6.1",
           "u": true, 
           "packages": ["benchmark"], 
           "targets": ["benchmark::benchmark", "benchmark::benchmark_main"],
